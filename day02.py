@@ -1,4 +1,15 @@
-math_value = [3.14, 2.71]
-print(f'원주율의 값은{PI}이고 타입은 {type(PI)}입니다')
-PI = 2.71
-print(f'원주율의 값은{math_values[0]이고 타입은 {type(mathe_values)}입니다')git
+# Chap 3
+
+print(2*2*2*2*2)
+print(2**5)
+print(pow(2, 5))
+print(divmod(9, 5))
+print(type(divmod(9, 5)))
+print (type((1, 2)))
+test = 1, 2 # packing
+print(type(test))
+print(test)
+print(test[1])
+a, b, c = test # unpackingD
+print(a)
+print(b)
