@@ -1,14 +1,23 @@
-# Chap 3
+# Chap 4
 
-# number = 0b10011010
-# number = 0x9A
-# number = 0o232
-# print(number)
+limits = 20
+tweets = "pass" * 6
+diff = limits - len(tweets)
+# if diff := limits - len(tweets) >= 0:
+if diff >= 0:
+    print(tweets)
+else:
+    print(f'글자 수 {abs(diff)} 초과')
 
-number = 154
-print(bin(number))
-print(hex(number))
-print(oct(number))
+a = []
+print(bool(a))
+a.append(5)
+print(bool(a))
+print(bool(set()))
+print(bool(dict()))
+print(bool())
 
-print(ord("a")) # ascii
-print(hex(ord(" "))) # 20
+vowels = 'aeiou'
+letter = 'u'
+if letter not in vowels:
+    print("실행 안됨!")
