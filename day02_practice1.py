@@ -1,11 +1,13 @@
-import random
-
-secret = random.randint(1, 10)
-guess = random.randint(1, 10)
-if secret - guess > 0:
-    print("too low")
-elif secret - guess < 0:
-    print("too high")
+small = True
+green = True
+if green:
+    if small:
+        print("It's pea")
+    else:
+        print("It`s watermelon")
 else:
-    print("just right")
+    if small:
+        print("It's cherry")
+    else:
+        print("It's pumpkin")
 
